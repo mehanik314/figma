@@ -14,6 +14,7 @@ import DeepLearning from './components/DeepLearning.vue'
 import Feature from './components/Feature.vue'
 import Reviews from './components/Reviews.vue'
 import Footer from './components/Footer.vue'
+
 export default {
   name: 'App',
   components: {

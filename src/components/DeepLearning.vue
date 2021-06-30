@@ -63,7 +63,7 @@ export default {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 1277px;
+    width: 1260px;
     height: 669px;
 }
 </style>
