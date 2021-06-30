@@ -1,4 +1,5 @@
 <template>
+<div class="mainscreen">
    <header class="header">
         <div class=header__wrapper>
           <div class="header__logo">
@@ -13,6 +14,7 @@
           </ul>
           <button class="header__button">Sign In</button>
         </div>
+        </header>
     <div class="HeroArea__wrapper">
       <div class="HeroArea">
           <div class="HeroArea__wrapper__text">
@@ -40,7 +42,7 @@
           <li class="HeroArea__footer__list"><img src="../assets/img/logo4.png" alt="" class="HeroArea__footer_imgs"></li>
         </ul>
       </div>
-          </header>
+</div>
 </template>
 
 <script>
@@ -195,6 +197,7 @@ export default {
     padding: 15px 30px;
     background: #3A68B8;
     border: none;
+    color: white;
     border-radius: 5px;
 }
 .header__list{

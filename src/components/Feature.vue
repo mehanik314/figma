@@ -99,7 +99,7 @@ border-radius: 10px;
     align-items: center;
 }
 @media (max-width:1280px){
-    .feature__wrapper{
+    .feature__items__wrapper{
     flex-wrap: wrap;
     width: 1145px;
     height: auto;
