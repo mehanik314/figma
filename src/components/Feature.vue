@@ -66,6 +66,7 @@ export default {
     color: #FFFFFF;
     opacity: 0.7;
     margin-top: 30px;
+    text-align: center;
 }
 .slider__btn{
     width: 14px;
@@ -74,15 +75,14 @@ export default {
     border-style: none;
     background: #2C3647;
     opacity: 0.5;
-    
-
-border-radius: 10px;
+    border-radius: 10px;
 }
 .feature__slider__wrapper{
     display: flex;
     justify-content: space-between;
     width: 66px;
     height: 15px;
+    margin-top: 50px;
 }
 .feature__items__wrapper{
     display: flex;
@@ -108,11 +108,14 @@ border-radius: 10px;
 .feature__items{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 360px;
     height: 389px;
-    
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) -41.9%, #020A18 115.68%);
+    border-radius: 20px;
 }
+
 .feature__img{
     width: 97px;
     height: 103px;
@@ -120,6 +123,6 @@ border-radius: 10px;
 .feature__items:nth-child(1) .feature__img{
     width: 72px;
     height: 69px;
-    margin-top: 64px;
+    margin-top: 34px;
 }
 </style>

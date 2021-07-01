@@ -29,7 +29,7 @@ export default {
 
 <style>
 body{
-  background-color: #020A18;
+background-color: #020A18;
 }
 /* open-sans-300 - latin_cyrillic */
 @font-face {
